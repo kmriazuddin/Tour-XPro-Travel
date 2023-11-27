@@ -4,7 +4,7 @@ const Package = ({ items }) => {
     console.log(items);
     return (
         <div className="flex">
-            <Card sx={{ maxWidth: 345 }}>
+            <Card>
                 <CardMedia
                     component="img"
                     alt="green iguana"
