@@ -1,0 +1,191 @@
+[
+    {
+        "_id": "643010e0f5a7e52ce1e8fa64",
+        "image": "https://i.ibb.co/424RJ6Q/canada.jpg",
+        "tourName": "Canadian Rockies and Vancouver",
+        "tourType": "North America",
+        "details": "The western provinces of Alberta and British Columbia are draped in spectacular natural riches. On this 14-day Canadian Rockies tour, you’ll twist along the highs and lows of the vast landscape through sweeping scenery, mighty mountains, deep forests and pristine lakes and rivers. We contrast the natural landscapes with city stays, too, spending time in Vancouver and Victoria. You’ll soon realise it was more than the promise of gold that tempted settlers here during the Klondike Gold Rush of the 1890s.",
+        "price": "4,395",
+        "rating": 3
+    },
+    {
+        "_id": "643010e0f5a7e52ce1e8fa65",
+        "image": "https://i.ibb.co/WKXdBH7/1920x640.jpg",
+        "tourName": "India’s Golden Triangle with Ranthambore National Park",
+        "tourType": "Asia offers",
+        "details": "This fantastic introduction to India combines the three cities of the ‘Golden Triangle’ with a couple of days in Ranthambore National Park. Journeying in a loop from Delhi, you’ll tick off highlights including the Taj Mahal in Agra, and the forts and pink-hued palaces of Jaipur. With three game drives in Ranthambore, we’ll go in search of the park’s elusive Bengal tigers, as well as looking out for leopards, sloth bears, monkeys and all manner of birdlife. Our escorted tours to India are accompanied by tour managers throughout, so they're ideal for first-time visitors.",
+        "price": "2,295",
+        "rating": 3
+    },
+    {
+        "_id": "643010e0f5a7e52ce1e8fa66",
+        "image": "https://i.ibb.co/37MPg2M/1920x640-1.jpg",
+        "tourName": "Essence of Japan",
+        "tourType": "Asia offers",
+        "details": "Ancient and ultra-modern sit shoulder to shoulder in Japan. On this Japan itinerary, we’ll experience both over two weeks, exploring high-paced cities, hushed shrines and temples, and serene gardens. We’ll attend a traditional tea ceremony, learn a little about geisha and samurai culture, catch a glimpse of Mount Fuji and whizz between cities on the sleek, slick Shinkansen (bullet train). Our Japan tours travel in spring, when cherry blossoms and hydrangea bloom; in summer, when you can time your tour with the fascinating Gion Festival; and in autumn, when maple trees are a blaze of fiery red and orange. In April and October, some dates coincide with the colourful Takayama Festival, and May and September also offer opportunities to experience a Sumo wrestling tournament. Which will you choose?",
+        "price": "5,995",
+        "rating": 3
+    },
+    {
+        "_id": "643010e0f5a7e52ce1e8fa67",
+        "image": "https://i.ibb.co/37MPg2M/1920x640-1.jpg",
+        "tourName": "Essential Vietnam & Cambodia",
+        "tourType": "Asia offers",
+        "details": "Discover the heart of Indochina on our escorted tours of Vietnam and Cambodia. Your adventure begins in Hanoi, Vietnam’s capital. From here, you’ll cruise around UNESCO-listed Halong Bay, stroll through Hoi An’s old town, visit the Cu Chi Tunnels and explore the Mekong Delta. Next up is Cambodia. You’ll spend three nights in Siem Reap, gateway to the Khmer temples at Angkor. As well as temple-hopping, you’ll sail across Tonlé Sap Lake.",
+        "price": "3,195",
+        "rating": 3
+    },
+    {
+        "_id": "643010e0f5a7e52ce1e8fa68",
+        "image": "https://i.ibb.co/QKksTJ4/1920x640-2.jpg",
+        "tourName": "Classic Kerala",
+        "tourType": "Asia offers",
+        "details": "With golden beaches, breezy hill towns and sleepy backwaters, Kerala is India at its most laid-back. On our 'Classic Kerala' tours, we’ll uncover the best of this south-western state, from its tea and spice plantations to its cultural cities (where you’ll find ancient temples and reminders of the area’s colonial heritage). You’ll also have the chance to spot a little of the local wildlife - as we cruise along Lake Periyar, we’ll keep an eye out for elephants, deer, otters and even tigers along the shoreline.",
+        "price": "2,295",
+        "rating": 3
+    },
+    {
+        "_id": "643010e0f5a7e52ce1e8fa69",
+        "image": "https://i.ibb.co/PTKLWDw/1920x640-3.jpg",
+        "tourName": "Vietnamese Discovery",
+        "tourType": "Asia offers",
+        "details": "Travelling from high-energy cities to sleepy backwaters, ancient citadels to karst-dotted bays, our small-group Vietnam tours showcase everything that we love about this country. You’ll explore Hanoi’s labyrinthine Old Quarter and Ho Chi Minh City’s Parisian-style boulevards. You’ll help out on a rural farm and enjoy lunch with locals. You’ll sip salt coffee and sample rice paper snacks. And you’ll sail the serene waters of Halong Bay and Lan Ha Bay on an unforgettable 2-night cruise. Welcome to Vietnam.",
+        "price": "3,395",
+        "rating": 3
+    },
+    {
+        "_id": "643010e0f5a7e52ce1e8fa70",
+        "image": "https://i.ibb.co/M9Q2N3G/1920x640-4.jpg",
+        "tourName": "Royal Rajasthan - Land of Kings",
+        "tourType": "Asia offers",
+        "details": "From the imposing forts of Jaipur and the deserted Mughal capital of Fatehpur Sikri, to Udaipur’s elegant lakeside palaces, Rajasthan’s history and heritage come to the forefront on this India tour. Along the way, you’ll get to stay in a rambling hilltop palace, a majestic fort and a luxury camp in the desert. The Taj Mahal is another highlight - you’ll visit at sunset and watch as the white marble takes on a golden hue.",
+        "price": "2,995",
+        "rating": 3
+    },
+    {
+        "_id": "643010e0f5a7e52ce1e8fa71",
+        "image": "https://i.ibb.co/KDXBRT3/1920x640-5.jpg",
+        "tourName": "South India - Temples and Waterways",
+        "tourType": "Asia offers",
+        "details": "Experience the spiritual roots of Southern India, from the colonial-era powerhouses of Chennai and Puducherry to the ancient Chola Empire capital of Tanjore, and the spectacular Hindu temple complexes of Madurai. Discover spice farms in the countryside and wildlife in Thekkady, before winding down with a leisurely houseboat tour on the Indian backwaters in Kumarakom. It’s a journey that will leave you with a deep appreciation for Southern India’s rich history and cultural heritage.",
+        "price": "2,545",
+        "rating": 3
+    },
+    {
+        "_id": "643010e0f5a7e52ce1e8fa72",
+        "image": "https://i.ibb.co/qy7wwsF/1920x640-6.jpg",
+        "tourName": "Little Boats of Catalonia",
+        "tourType": "Europe",
+        "details": "A regional capital packed with architectural treasures. Pretty, white-washed towns nestled between bright blue sea and lush green mountains. There’s a lot to draw you to Catalonia, and lots to draw you back. On our Catalonia tours we'll base ourselves in the relaxed beach town of Roses. Enjoying several boat rides, we explore this fiercely proud region of Spain, including peaceful Lake Banyoles and beautiful Besalú. And since it’s so close, we hop over the border to France to cruise the impressively engineered Canal du Midi.",
+        "price": "3,495",
+        "rating": 3
+    },
+    {
+        "_id": "643010e0f5a7e52ce1e8fa73",
+        "image": "https://i.ibb.co/jg7FzGC/1920x640-7.jpg",
+        "tourName": "Ionian Island Paradise",
+        "tourType": "Europe",
+        "details": "Stunningly beautiful with a long and varied history, Corfu offers a perfect combination of fascinating sights and total relaxation. Join us on this relaxed Corfu tour as we explore Corfu Town’s highlights, including views of its imposing Venetian fortress; see the sparkling turquoise water of the Ionian Sea set against the rocky, forested coastline of the north; and explore the 19th-century villa of Mon Repos. Or simply stretch out on the exquisite private beach of our hotel. You'll have a truly wonderful time on our Ionian island holidays.",
+        "price": "2,595",
+        "rating": 3
+    },
+    {
+        "_id": "643010e0f5a7e52ce1e8fa74",
+        "image": "https://i.ibb.co/W2Wz5FZ/1920x640-8.jpg",
+        "tourName": "Lakeside Austria - Magical Zell am See",
+        "tourType": "Europe",
+        "details": "Mountain high, river deep. Austria’s natural beauty is captivating and astounding in equal measure. From undulating summits and deep valleys, to pristine lakes, roaring rivers and lush pastures, nature is at its best here. Move inwards, and uncover a culturally rich heritage full of music, baroque facades, Gothic palaces and historic wonder. On this Austria tour, based in the beautiful lakeside town of Zell am See, discover the source of the country's endearing charm through its spectacular terrain, hearty cuisine and warm hospitality.",
+        "price": "2,025",
+        "rating": 3
+    },
+    {
+        "_id": "643010e0f5a7e52ce1e8fa75",
+        "image": "https://i.ibb.co/jwhLRtV/1920x640-9.jpg",
+        "tourName": "Egypt’s Timeless Riches - a week on the River Nile",
+        "tourType": "Africa",
+        "details": "Nile cruises recall a more civilised age of travel, when the holiday journey was as much a source of pleasure as the destination. Our superb 7-night Nile river cruise takes its cue from these holidays of yesteryear, presenting the wonders of the ancient Egyptians to present-day Egypt. Its monumental temples and tombs, its bustling cities and a captivating riverside way of life little changed in centuries - as the ship makes its leisurely way from Luxor to Aswan and back. A journey along the Nile is truly a journey to the heart of exotic Egypt. Your cruise will be aboard the MS Nile Plaza - a small ship that carries a maximum of 110 passengers, with 55 cabins, a restaurant, bar and sundeck.",
+        "price": "4,395",
+        "rating": 3
+    },
+    {
+        "_id": "643010e0f5a7e52ce1e8fa76",
+        "image": "https://i.ibb.co/sFWb2zR/1920x640-10.jpg",
+        "tourName": "Magic of the Nile",
+        "tourType": "Africa",
+        "details": "Sail along the Nile on this river cruise and discover why this mighty river is the lifeblood of Egypt. Journey back in time and wander amongst the sand covered tombs and temples of Luxor, Karnak and the Valley of the Kings and gaze upon an incredible feat of engineering and ingenuity at Aswan High Dam. We’ll watch life unfold along the palm-tree lined riverbanks, take in views across verdant deltas and be astounded by some of the most spectacular ancient wonders of the world.",
+        "price": "2,395",
+        "rating": 3
+    },
+    {
+        "_id": "643010e0f5a7e52ce1e8fa77",
+        "image": "https://i.ibb.co/DzzL9gt/1920x640-11.jpg",
+        "tourName": "Wild Costa Rica",
+        "tourType": "South America",
+        "details": "Do you dream of meeting a sleepy sloth? Have you wondered where the unusual-looking tapir lives? Do you long to tick the resplendent quetzal off your ‘incredible birds’ list? Costa Rica is home to all these fascinating creatures, plus impressive reptiles, colourful frogs, unique beetles and hundreds of bird species. Our Costa Rica wildlife tours give you the opportunity to trek through cloud forests, sail along crocodile rivers, be surrounded by a kaleidoscope of butterflies, and let the nocturnal creatures sing you to sleep.",
+        "price": "4,595",
+        "rating": 3
+    },
+    {
+        "_id": "643010e0f5a7e52ce1e8fa78",
+        "image": "https://i.ibb.co/gZYTb8y/1920x640-12.jpg",
+        "tourName": "Charm of Cape Cod with Historic Boston and New York",
+        "tourType": "America",
+        "details": "Combining the history and culture of Boston, the 1950s seaside charm of Cape Cod and the bright lights of New York, this tour is a leisurely discovery of America’s east. Three nights in Boston allows plenty of time to follow its Freedom Trail or stroll along Beacon Hill. Falmouth gives us easy access to the Cape’s treasures - wide sandy beaches, harbour towns and upscale Martha’s Vineyard. Explore Newport’s Breakers Mansion and Yale University before concluding in the most exciting of US cities, New York.",
+        "price": "3,195",
+        "rating": 3
+    },
+    {
+        "_id": "643010e0f5a7e52ce1e8fa79",
+        "image": "https://i.ibb.co/RScP01T/1920x640-13.jpg",
+        "tourName": "Channel Island Sojourn",
+        "tourType": "Europe",
+        "details": "Intriguing for their fabulous blend of British and French influences, we’ll take in the two largest of the Channel Islands on our relaxed 8-day holiday. Staying in lovely properties close to their capitals, there’ll be a balance of included excursions and time to stroll for yourself through these characterful towns. In Jersey, we’ll wander through renowned vineyards and explore the island fort of Elizabeth Castle, before crossing to Guernsey for sandy crescent beaches and stunning views. The perfect duo.",
+        "price": "2,545",
+        "rating": 3
+    },
+    {
+        "_id": "643010e0f5a7e52ce1e8fa80",
+        "image": "https://i.ibb.co/YW84V55/1920x640-14.jpg",
+        "tourName": "Guernsey Short Break",
+        "tourType": "Europe",
+        "details": "With an important literary heritage, gorgeous sandy beaches and a rich military history to discover, a week on our Guernsey holidays will simply fly by. Staying in the picturesque harbour town of St Peter Port, we’ll see where Victor Hugo wrote ‘Les Misérables’; discover the beautiful lakes, fish ponds and glorious island views of Candie Gardens; and explore the museums at Castle Cornet, which has been protecting the harbour for 800 years. We’ll also take a full-day boat trip to Sark, a peaceful, car-free island.",
+        "price": "3,695",
+        "rating": 3
+    },
+    {
+        "_id": "643010e0f5a7e52ce1e8fa81",
+        "image": "https://i.ibb.co/xKvTdHd/1920x640-18.jpg",
+        "tourName": "Hawaiian Islands Discovery",
+        "tourType": "North America",
+        "details": "Say ‘aloha’ to the ultimate island getaway in Hawaii - a true treasure trove of exotic wildlife, volcanic parks and spectacular landscapes. On our Hawaii tours, you'll skip between the tropical gems of Kauai, Big Island and Oahu for a healthy dose of island living. Between the charming towns, cosmopolitan cities and swathes of golden sand, you’ll uncover a poignant piece of USA history at Pearl Harbor and have a breathtaking encounter at Kilauea volcano.",
+        "price": "4,595",
+        "rating": 3
+    },
+    {
+        "_id": "643010e0f5a7e52ce1e8fa82",
+        "image": "https://i.ibb.co/yFjBSqK/1920x640-15.jpg",
+        "tourName": "Footsteps of the Incas",
+        "tourType": "South America",
+        "details": "In Peru, archaeological treasures are weaved seamlessly among sweeping, unspoiled valleys and the mountain scenery of the Andes. Add into the mix a host of vibrant and friendly locals, and you’ll soon realise there’s much more to discover here than just llamas and knitted chullo. On our Peru tours, we'll fly on LATAM's direct service to Lima, to explore this coastal capital and look for condors soaring over vast Colca Canyon, before gliding through the tranquil waters of Lake Titicaca and travelling to mountaintop Machu Picchu, discovering Peruvian history and legend along the way.",
+        "price": "4,495",
+        "rating": 3
+    },
+    {
+        "_id": "643010e0f5a7e52ce1e8fa83",
+        "image": "https://i.ibb.co/8P8c883/1920x640-16.jpg",
+        "tourName": "Secrets of Southern Italy and Sicily",
+        "tourType": "Europe",
+        "details": "This 11-day trip is southern Italy and Sicily in shades of sepia. Travelling through Puglia and Calabria with a ferry crossing over to Sicily, we explore the sun-warmed piazzas and palazzi of cobbled hilltop towns, wander ancient amphitheatres, and unearth architectural treasures - such as the 10,000-year-old ‘sassi’ cave dwellings of Matera and the kiln-shaped stone ‘trulli’ of Alberobello. We’ll top off our trip with a ‘The Godfather’ Sicilian village and a walk beneath the summit of restless Mount Etna - the highest active volcano in Europe.",
+        "price": "3,395",
+        "rating": 3
+    },
+    {
+        "_id": "643010e0f5a7e52ce1e8fa84",
+        "image": "https://i.ibb.co/1bsNLv2/1920x640-17.jpg",
+        "tourName": "Grand Tour of Italy - from Venice to Sicily",
+        "tourType": "Europe",
+        "details": "Savour every flavour of bella Italia on our two-week Italy tours, from the cultural highlights of the north to the carefree coasts in the south. Starting in the marshland-turned-masterpiece Venice, we’ll sweep through the lyrical landscapes of the Italian countryside. Stopping in ancient Rome and Sicily, sipping a glass of red overlooking beautiful Siena, seeing the ruins of Pompeii - you’ll be indulging in the Italian way of life faster than you can say ‘buongiorno’.",
+        "price": "3,795",
+        "rating": 3
+    }
+]
