@@ -3,6 +3,10 @@ import Slider from "../Slider/Slider";
 import TravelSection from "../TravelSection/TravelSection";
 import Banner from "../Banner/Banner";
 import OurPackage from "../OurPackage/OurPackage";
+import ServiceCountUp from "../ServiceCountUp/ServiceCountUp";
+import Testimonials from "../Testimonial/Testimonial";
+import TravelAssist from "../TravelAssist/TravelAssist";
+import WhyChoose from "../WhyChoose/WhyChoose";
 
 const Home = () => {
     return (
@@ -11,9 +15,14 @@ const Home = () => {
                 <title>Tour XPro Travel | Home</title>
             </Helmet>
             <Slider></Slider>
+            <TravelAssist></TravelAssist>
             <TravelSection></TravelSection>
             <Banner></Banner>
             <OurPackage></OurPackage>
+            <ServiceCountUp></ServiceCountUp>
+            <WhyChoose></WhyChoose>
+            {/* <MeetOurGuide></MeetOurGuide> */}
+            <Testimonials></Testimonials>
         </div>
     );
 };

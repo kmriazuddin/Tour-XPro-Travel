@@ -2,7 +2,16 @@
 const Banner = () => {
     return (
         <div>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima magni quo laboriosam nobis vero aperiam dolorum, voluptatem eaque natus, ipsam non quod odio ipsa ab iste et amet dicta! Reiciendis laborum laboriosam obcaecati neque similique harum facere. Praesentium minus perferendis repellat sequi quasi recusandae obcaecati. Ab sunt totam molestias! Nisi nemo rem vero optio! Pariatur minus repellendus vel consequuntur, debitis voluptas. Nemo voluptatum nihil magni inventore sint repudiandae est exercitationem excepturi accusantium? Debitis obcaecati mollitia alias odit quidem sit quae minus tenetur magnam, suscipit nisi veniam quas dignissimos necessitatibus fuga inventore, deserunt neque labore quis! Quia sequi repellendus laborum doloribus repellat a quod consectetur, dolor nesciunt maxime obcaecati dolorum fugit non minima iste porro adipisci vitae ut, omnis mollitia debitis neque, soluta asperiores sit? Ullam quaerat debitis nisi eius vitae impedit dolores sunt. Reiciendis adipisci repellat tempore perspiciatis corporis earum repudiandae sit explicabo itaque? A minima ex officiis corporis porro nulla quos at quia reprehenderit necessitatibus consequatur, dolor nostrum ducimus, nobis laborum! Quas mollitia ut consequatur vel pariatur quibusdam officiis ullam distinctio amet, architecto eveniet adipisci nihil maxime nesciunt recusandae exercitationem beatae eaque sint, debitis reiciendis animi ratione necessitatibus saepe autem. Sint possimus explicabo molestiae deleniti. Maiores soluta vel dignissimos?</p>
+            <div className="hero" style={{ backgroundImage: 'url(https://i.ibb.co/VDJZP7M/banner41.png)' }}>
+                <div className="hero-overlay bg-opacity-60"></div>
+                <div className="hero-content text-center text-neutral-content">
+                    <div className="bg-slate-100 p-8 my-6 rounded-lg">
+                        <h1 className="mb-5 text-5xl font-bold text-black">TOUR XPro</h1>
+                        <p className="mb-5 text-black">Tour XPro and Travels Most Popular Tours and Travels agency in Dhaka, Bangladesh. Our Services Visa Process , Package Tours, Air Tickets, Hotel Booking.</p>
+                        <button className="btn btn-success text-white">Get Started</button>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };

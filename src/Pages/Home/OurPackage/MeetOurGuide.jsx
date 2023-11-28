@@ -1,7 +1,7 @@
 import { Button, Card, CardActions, CardContent, CardMedia, Typography } from "@mui/material";
+import { Rating } from "@smastrom/react-rating";
 
-const Package = ({ items }) => {
-    console.log(items);
+const MeetOurGuide = ({ guideCo }) => {
     return (
         <div className="flex mb-5">
             <Card>
@@ -9,13 +9,18 @@ const Package = ({ items }) => {
                     component="img"
                     alt="green iguana"
                     height="140"
-                    image={items?.image}
+                    image={guideCo?.image}
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
-                        {items?.tourName}
+                        {guideCo?.name}
                     </Typography>
-                    <Typography variant="body2" color="text.secondary">{items?.details}</Typography>
+                    <Typography variant="body2" color="text.secondary">{guideCo?.details}</Typography>
+                    <Rating
+                        style={{ maxWidth: 100 }}
+                        value={guideCo.rating}
+                        readOnly
+                    />
                 </CardContent>
                 <CardActions className="flex-grow">
                     <Button size="small">Share</Button>
@@ -26,4 +31,4 @@ const Package = ({ items }) => {
     );
 };
 
-export default Package;
+export default MeetOurGuide;
