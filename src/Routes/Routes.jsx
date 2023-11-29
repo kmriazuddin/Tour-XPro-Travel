@@ -13,6 +13,7 @@ import AllUsers from "../Pages/Dashboard/AllUsers/AllUsers";
 import AdminRoute from "./AdminRoute";
 import AddTour from "../Pages/Dashboard/AddTour/AddTour";
 import ManageTour from "../Pages/Dashboard/ManageTour/ManageTour";
+import UpdateTour from "../Pages/Dashboard/UpdateTour/UpdateTour";
 
 const Routes = createBrowserRouter([
     {
@@ -64,11 +65,11 @@ const Routes = createBrowserRouter([
             path: 'manageTour',
             element: <AdminRoute><ManageTour></ManageTour></AdminRoute>
           },
-        //   {
-        //     path: 'updateItem/:id',
-        //     element: <AdminRoute><UpdateItems></UpdateItems></AdminRoute>,
-        //     loader: ({params}) => fetch(`https://bistro-boss.onrender.com/menu/${params.id}`)
-        //   },
+          {
+            path: 'updateTour/:id',
+            element: <AdminRoute><UpdateTour></UpdateTour></AdminRoute>,
+            loader: ({params}) => fetch(`http://localhost:8000/packages/${params.id}`)
+          },
           {
             path: 'allusers',
             element: <AllUsers></AllUsers>

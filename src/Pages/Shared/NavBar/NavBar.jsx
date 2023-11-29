@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { AuthContext } from "../../../Providers/AuthProvider";
 import useBooking from "../../../Hooks/useBooking";
 
@@ -49,13 +49,9 @@ const NavBar = () => {
                                         </div>
                                     </summary>
                                     <ul tabIndex={0} className="mt-3 -z-50 p-2 shadow menu menu-sm dropdown-content bg-slate-500 rounded w-52 space-y-3">
-                                        <p className="text-lg">{user?.email}</p>
-                                        <li className="text-lg">{user?.displayName}</li>
-                                        <li><Link to="/dashboard/booking">
-                                            <button className="btn py-2">Booking Cart
-                                                <div className="badge badge-secondary">{booking?.length}</div>
-                                            </button>
-                                        </Link></li>
+                                        <p className="text-lg bg-green-500 hover:bg-green-600 py-2 px-3 text-white">{user?.email}</p>
+                                        <li className="text-lg bg-green-500 hover:bg-green-600 py-2 px-3 text-white">{user?.displayName}</li>
+                                        <button className="bg-green-500 hover:bg-green-600 py-2 px-3 space-x-2 text-white font-semibold"><NavLink className="bg-green-500" to="/dashboard/booking">My Wishlist</NavLink><div className="badge badge-warning">{booking?.length}</div></button>
                                         {
                                             user ? <><button onClick={handleLogOut} className="bg-pink-500 hover:bg-pink-600 p-2 rounded-md text-white font-semibold">Log Out</button></> : <><button className="bg-pink-500 hover:bg-pink-600 py-2 px-3 rounded-md text-white font-semibold"><NavLink to='/logIn'>Login</NavLink></button></>
                                         }
