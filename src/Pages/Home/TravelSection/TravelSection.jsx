@@ -35,7 +35,7 @@ const TravelSection = () => {
                     </div>
                 </TabPanel>
                 <TabPanel>
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 justify-center m-auto">
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 justify-center m-auto">
                         {
                             guides.map(guide =>
                                 <MeetOurGuide key={guide._id} guideCo={guide} className="">

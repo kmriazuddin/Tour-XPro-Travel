@@ -2,7 +2,6 @@ import { Helmet } from "react-helmet";
 import Slider from "../Slider/Slider";
 import TravelSection from "../TravelSection/TravelSection";
 import Banner from "../Banner/Banner";
-import OurPackage from "../OurPackage/OurPackage";
 import ServiceCountUp from "../ServiceCountUp/ServiceCountUp";
 import Testimonials from "../Testimonial/Testimonial";
 import TravelAssist from "../TravelAssist/TravelAssist";
@@ -18,7 +17,6 @@ const Home = () => {
             <TravelAssist></TravelAssist>
             <TravelSection></TravelSection>
             <Banner></Banner>
-            <OurPackage></OurPackage>
             <ServiceCountUp></ServiceCountUp>
             <WhyChoose></WhyChoose>
             {/* <MeetOurGuide></MeetOurGuide> */}

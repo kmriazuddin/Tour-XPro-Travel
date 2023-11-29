@@ -1,10 +1,12 @@
 import { useContext } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../../../Providers/AuthProvider";
+import useBooking from "../../../Hooks/useBooking";
 
 const NavBar = () => {
 
     const { user, logOut } = useContext(AuthContext);
+    const [booking] = useBooking();
 
     const handleLogOut = () => {
         logOut()
@@ -49,8 +51,13 @@ const NavBar = () => {
                                     <ul tabIndex={0} className="mt-3 -z-50 p-2 shadow menu menu-sm dropdown-content bg-slate-500 rounded w-52 space-y-3">
                                         <p className="text-lg">{user?.email}</p>
                                         <li className="text-lg">{user?.displayName}</li>
+                                        <li><Link to="/dashboard/booking">
+                                            <button className="btn py-2">Booking Cart
+                                                <div className="badge badge-secondary">{booking?.length}</div>
+                                            </button>
+                                        </Link></li>
                                         {
-                                            user ? <><button onClick={handleLogOut} className="bg-pink-500 hover:bg-pink-600 p-2 rounded-md text-white font-semibold">Log Out</button></> : <><button className="bg-pink-500 hover:bg-pink-600 px-3 rounded-md text-white font-semibold"><NavLink to='/logIn'>Login</NavLink></button></>
+                                            user ? <><button onClick={handleLogOut} className="bg-pink-500 hover:bg-pink-600 p-2 rounded-md text-white font-semibold">Log Out</button></> : <><button className="bg-pink-500 hover:bg-pink-600 py-2 px-3 rounded-md text-white font-semibold"><NavLink to='/logIn'>Login</NavLink></button></>
                                         }
                                     </ul>
                                 </details>
