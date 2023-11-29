@@ -18,18 +18,18 @@ const Dashboard = () => {
     return (
         <div>
             <Helmet>
-                <title>Bistro Boss | Dashboard</title>
+                <title>Tour XPro Travel | Dashboard</title>
             </Helmet>
             <div className="flex">
                 {/* Dashboard Side Bar */}
-                <div className="w-64 min-h-screen bg-orange-400">
+                <div className="w-64 min-h-screen bg-green-400">
                     <ul className="menu">
                         {/* Shared Nav Links */}
                         {
                             isAdmin ? <>
                                 <li><NavLink to="/dashboard/adminHome"><IoHomeOutline />
                                     Admin Home</NavLink></li>
-                                <li><NavLink to="/dashboard/additems"><MdOutlineRestaurantMenu /> Add Items</NavLink></li>
+                                <li><NavLink to="/dashboard/addTour"><MdOutlineRestaurantMenu /> Add Tour</NavLink></li>
                                 <li><NavLink to="/dashboard/manageitems"><FaUtensils /> Manage Items</NavLink></li>
                                 <li><NavLink to="/dashboard/cart"><GiBookmarklet /> Manage bookings</NavLink></li>
                                 <li><NavLink to="/dashboard/allusers"><FaUsers /> All Users</NavLink></li>
@@ -45,7 +45,7 @@ const Dashboard = () => {
                         }
                         <div className="divider"></div>
                         <li><NavLink to="/"><IoHomeOutline />Home</NavLink></li>
-                        <li><NavLink to="/menu"><MdOutlineRestaurantMenu />Menu</NavLink></li>
+                        <li><NavLink to="/bookings"><MdOutlineRestaurantMenu />Booking</NavLink></li>
                         <li><NavLink to="/contact"><RiContactsBookLine />Contact</NavLink></li>
                     </ul>
                 </div>

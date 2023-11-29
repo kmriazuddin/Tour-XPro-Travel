@@ -9,6 +9,9 @@ import PrivateRoutes from "./PrivateRoutes";
 import Dashboard from "../Layout/Dashboard";
 import UserHome from "../Pages/Dashboard/UserHome/UserHome";
 import Booking from "../Pages/Dashboard/Booking/Booking";
+import AllUsers from "../Pages/Dashboard/AllUsers/AllUsers";
+import AdminRoute from "./AdminRoute";
+import AddTour from "../Pages/Dashboard/AddTour/AddTour";
 
 const Routes = createBrowserRouter([
     {
@@ -46,16 +49,16 @@ const Routes = createBrowserRouter([
           {
             path: 'booking',
             element: <Booking></Booking>
-          }
+          },
           // Admin Routes
         //  {
         //     path: 'adminHome',
         //     element: <AdminRoute><AdminHome></AdminHome></AdminRoute>
         //   },
-        //   {
-        //     path: 'additems',
-        //     element: <AdminRoute><AddItems></AddItems></AdminRoute>
-        //   },
+          {
+            path: 'addTour',
+            element: <AdminRoute><AddTour></AddTour></AdminRoute>
+          },
         //   {
         //     path: 'manageitems',
         //     element: <AdminRoute><ManageItems></ManageItems></AdminRoute>
@@ -65,10 +68,10 @@ const Routes = createBrowserRouter([
         //     element: <AdminRoute><UpdateItems></UpdateItems></AdminRoute>,
         //     loader: ({params}) => fetch(`https://bistro-boss.onrender.com/menu/${params.id}`)
         //   },
-        //   {
-        //     path: 'allusers',
-        //     element: <AllUsers></AllUsers>
-        //   }
+          {
+            path: 'allusers',
+            element: <AllUsers></AllUsers>
+          }
         ]
       }
 ]);
