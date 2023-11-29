@@ -9,6 +9,7 @@ import { RiContactsBookLine } from "react-icons/ri";
 import { IoHomeOutline } from "react-icons/io5";
 import useBooking from "../Hooks/useBooking";
 import useAdmin from "../Hooks/useAdmin";
+import NavBar from "../Pages/Shared/NavBar/NavBar";
 
 const Dashboard = () => {
     const [bookings] = useBooking();
@@ -20,6 +21,7 @@ const Dashboard = () => {
             <Helmet>
                 <title>Tour XPro Travel | Dashboard</title>
             </Helmet>
+            <NavBar></NavBar>
             <div className="flex">
                 {/* Dashboard Side Bar */}
                 <div className="w-64 min-h-screen bg-green-400">
@@ -30,7 +32,7 @@ const Dashboard = () => {
                                 <li><NavLink to="/dashboard/adminHome"><IoHomeOutline />
                                     Admin Home</NavLink></li>
                                 <li><NavLink to="/dashboard/addTour"><MdOutlineRestaurantMenu /> Add Tour</NavLink></li>
-                                <li><NavLink to="/dashboard/manageitems"><FaUtensils /> Manage Items</NavLink></li>
+                                <li><NavLink to="/dashboard/manageTour"><FaUtensils /> Manage Tour</NavLink></li>
                                 <li><NavLink to="/dashboard/cart"><GiBookmarklet /> Manage bookings</NavLink></li>
                                 <li><NavLink to="/dashboard/allusers"><FaUsers /> All Users</NavLink></li>
                             </> : <>

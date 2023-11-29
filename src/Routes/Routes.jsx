@@ -12,6 +12,7 @@ import Booking from "../Pages/Dashboard/Booking/Booking";
 import AllUsers from "../Pages/Dashboard/AllUsers/AllUsers";
 import AdminRoute from "./AdminRoute";
 import AddTour from "../Pages/Dashboard/AddTour/AddTour";
+import ManageTour from "../Pages/Dashboard/ManageTour/ManageTour";
 
 const Routes = createBrowserRouter([
     {
@@ -59,10 +60,10 @@ const Routes = createBrowserRouter([
             path: 'addTour',
             element: <AdminRoute><AddTour></AddTour></AdminRoute>
           },
-        //   {
-        //     path: 'manageitems',
-        //     element: <AdminRoute><ManageItems></ManageItems></AdminRoute>
-        //   },
+          {
+            path: 'manageTour',
+            element: <AdminRoute><ManageTour></ManageTour></AdminRoute>
+          },
         //   {
         //     path: 'updateItem/:id',
         //     element: <AdminRoute><UpdateItems></UpdateItems></AdminRoute>,
