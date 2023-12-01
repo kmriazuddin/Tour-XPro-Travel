@@ -5,7 +5,7 @@ const useGuide = () => {
     const [guides, setGuide] = useState([]);
     const [loading, setLoading] = useState(true);
     useEffect(() => {
-        fetch('http://localhost:8000/guide')
+        fetch('https://tour-xpro-travel.onrender.com/guide')
         .then(res => res.json())
         .then(data => {
             setGuide(data);

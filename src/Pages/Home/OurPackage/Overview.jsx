@@ -5,7 +5,7 @@ const Overview = () => {
     const [overview, setOverview] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:8000/overview')
+        fetch('https://tour-xpro-travel.onrender.com/overview')
             .then(res => res.json())
             .then(data => setOverview(data))
     }, []);

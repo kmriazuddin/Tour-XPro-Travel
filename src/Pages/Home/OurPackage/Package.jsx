@@ -1,19 +1,19 @@
 // import { Button, Card, CardActions, CardContent, CardMedia, Typography } from "@mui/material";
 import useAuth from "../../../Hooks/useAuth";
 import Swal from "sweetalert2";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import useAxiosSecure from "../../../Hooks/useAxiosSecure";
 import useBooking from "../../../Hooks/useBooking";
 
 const Package = ({ items }) => {
-    const {image, tourName, price, _id} = items;
-    const {user} = useAuth();
+    const { image, tourName, price, _id } = items;
+    const { user } = useAuth();
     const navigate = useNavigate();
     const axiosSecure = useAxiosSecure();
     const [, refetch] = useBooking();
 
     const handleBooking = () => {
-        if(user && user?.email){
+        if (user && user?.email) {
             // Send Cart Item To The Database
             const bookingItem = {
                 menuId: _id,
@@ -23,22 +23,22 @@ const Package = ({ items }) => {
                 price
             }
             axiosSecure.post('/bookings', bookingItem)
-            .then(res => {
-                console.log(res.data)
-                if(res.data.insertedId){
-                    Swal.fire({
-                        position: "top-end",
-                        icon: "success",
-                        title: "Your work has been saved",
-                        showConfirmButton: false,
-                        timer: 1500
-                      });
-                    // Refetch Cart To Update The Cart Items
-                    refetch();
-                }
-            })
+                .then(res => {
+                    console.log(res.data)
+                    if (res.data.insertedId) {
+                        Swal.fire({
+                            position: "top-end",
+                            icon: "success",
+                            title: "Your work has been saved",
+                            showConfirmButton: false,
+                            timer: 1500
+                        });
+                        // Refetch Cart To Update The Cart Items
+                        refetch();
+                    }
+                })
         }
-        else{
+        else {
             Swal.fire({
                 title: "You Are Not Login!",
                 text: "Please Login Then Add To The Cart!",
@@ -47,12 +47,12 @@ const Package = ({ items }) => {
                 confirmButtonColor: "#3085d6",
                 cancelButtonColor: "#d33",
                 confirmButtonText: "Please Login!"
-              }).then((result) => {
+            }).then((result) => {
                 if (result.isConfirmed) {
-                  // Send The User To The Login Page
-                  navigate('/login', {state: {from: location}});
+                    // Send The User To The Login Page
+                    navigate('/login', { state: { from: location } });
                 }
-              });
+            });
         }
     }
     return (
@@ -61,8 +61,9 @@ const Package = ({ items }) => {
                 <figure><img className="bg-no-repeat bg-center" src={image} alt="Shoes" /></figure>
                 <div className="card-body">
                     <p className="text-center">{tourName}</p>
-                    <div onClick={handleBooking} className="card-actions justify-center">
-                        <button className="btn btn-outline bg-slate-100 border-0 border-b-4 mt-4">add to cart</button>
+                    <div className="card-actions justify-center items-center gap-10">
+                        <button className="btn btn-outline bg-slate-100 border-0 border-b-4 mt-4"><Link to={`/packages/${_id}`}>View Details</Link></button>
+                        <button onClick={handleBooking} className="btn btn-outline bg-slate-100 border-0 border-b-4 mt-4">Add To Cart</button>
                     </div>
                 </div>
             </div>

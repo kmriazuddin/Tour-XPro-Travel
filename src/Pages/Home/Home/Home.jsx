@@ -19,7 +19,6 @@ const Home = () => {
             <Banner></Banner>
             <ServiceCountUp></ServiceCountUp>
             <WhyChoose></WhyChoose>
-            {/* <MeetOurGuide></MeetOurGuide> */}
             <Testimonials></Testimonials>
         </div>
     );

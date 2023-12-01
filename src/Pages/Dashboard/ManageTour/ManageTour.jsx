@@ -40,7 +40,7 @@ const ManageTour = () => {
 
     return (
         <div>
-            <SectionTitle heading="Manage All Items" subHeading="Hurry up"></SectionTitle>
+            <SectionTitle heading="Manage All Tour" subHeading="Hurry up"></SectionTitle>
             <div>
                 <div className="overflow-x-auto">
                     <table className="table w-full">
@@ -79,7 +79,7 @@ const ManageTour = () => {
                                     <td>
                                         <Link to={`/dashboard/updateTour/${item._id}`}>
                                             <button
-                                                className="btn btn-ghost btn-lg bg-orange-500">
+                                                className="btn btn-ghost btn-md bg-green-500">
                                                 <FaEdit className="text-white 
                                         "></FaEdit>
                                             </button>
@@ -88,7 +88,7 @@ const ManageTour = () => {
                                     <td>
                                         <button
                                             onClick={() => handleDeleteItem(item)}
-                                            className="btn btn-ghost btn-lg bg-orange-500">
+                                            className="btn btn-ghost btn-md bg-green-500">
                                             <FaTrashAlt className="text-white"></FaTrashAlt>
                                         </button>
                                     </td>

@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import useAuth from "./useAuth";
 
 const axiosSecure = axios.create({
-    baseURL: 'http://localhost:8000'
+    baseURL: 'https://tour-xpro-travel.onrender.com'
 })
 const useAxiosSecure = () => {
     const { logOut } = useAuth();
