@@ -11,6 +11,7 @@ const Register = () => {
     const { register, handleSubmit, reset, formState: { errors }, } = useForm();
     const { createUser, updateUserProfile } = useContext(AuthContext);
     const navigate = useNavigate();
+    console.log(createUser);
 
     const onSubmit = data => {
         createUser(data.email, data.password)

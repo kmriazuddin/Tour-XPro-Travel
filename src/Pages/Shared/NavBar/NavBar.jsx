@@ -32,7 +32,7 @@ const NavBar = () => {
                             </label>
                         </div>
                         <div className="flex-1 px-2 mx-2">
-                            <NavLink to='/'><img className="bg-white" src="https://i.ibb.co/MsTzMdz/logo.png" alt="logo" /></NavLink>
+                            <NavLink to='/'><img className="bg-white" src="https://photos.app.goo.gl/zBje2Dy9EsVzSETy5" alt="logo" /></NavLink>
                         </div>
                         <div>
                             <ul className="menu menu-horizontal space-x-3">
